@@ -13,6 +13,6 @@ console.log('Podałeś następujace dane: podstawa = ' + a + ' wysokość = ' + 
 
 // wyliczenie pola trójkąta
 
-var triangleArea = 1/2*a*h;
+var triangleArea = a*h/2;
 
 console.log('Pole tójkąta wynosi = ' + triangleArea);

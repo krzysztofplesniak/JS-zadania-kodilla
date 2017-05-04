@@ -1,10 +1,10 @@
-button = document.getElementById('button');
+$("span:odd").css('color','red');
 
-var i = 1; 
-button.addEventListener('click', function() {
-	var ul = document.getElementById('lista');
-	var newElem = document.createElement('li');
-	newElem.innerHTML = "Składnik #" + i; 
-	ul.appendChild(newElem);  
-	i++;
+var paragraphs = $('p');
+
+paragraphs.each(function(index, element) {
+
+	var button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
+	$(element).append(button) 
+
 });

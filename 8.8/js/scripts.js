@@ -14,6 +14,6 @@ var addedStringTogether = text2UpperCase + ' ' + text1Replaced;
 var lengthOfStrings = addedStringTogether.length;
 
 console.log(text2UpperCase);
-console.log(text1Replaced)
+console.log(text1Replaced);	
 
 console.log('Połowa połączonego łańucha wyglada tak -> ' + addedStringTogether.slice(0, lengthOfStrings/2));
